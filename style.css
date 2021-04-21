@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.right-menu li{
+    display: inline-block;
+    margin-top: 30px !important;
+}
+.right-menu li .fa{
+    font-size: 18px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.navbar-brand h2{
+    position: relative;
+    font-family: italic;
+    
+    
+}
+.navbar-brand{
+    left: 50%;
+    top: 25px;
+    transform: translateX(-50%);
+    position: absolute;
+}
+.header{
+    background: #c5bcac;
+    margin-bottom: 80px;
+}
+.navbar{
+    padding: 0 34px !important;
+}
+.navbar-toggler{
+    border: none !important;
+    outline: none !important;
+    padding: 0 !important;
+    margin-top: 30px;
+}
+.navbar-toggler .fa{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+
+.banner-img{
+    margin: 80px 115px;
+    width: 60%;
+}
+.banner-img img{
+    width: 80%;
+    margin-bottom: -80px;
+    cursor: pointer;
+}
+.banner{
+    position: relative;
+}
+.banner-title{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+.banner-title h1{
+    font-size: 55px;
+    background: rgba(0,0,0,0.75);
+    color: white;
+    line-height: 70px;
+    padding: 0px 9px 0 10px;
+}
+
+.fashion-trends{
+    padding: 100px 0;
+}
+.fashion-box{
+    margin: 80px 0;
+}
+
+.tittle-style h1{
+    padding: 40px 0;
+}
+.tittle-style{
+    margin: 0 auto 80px;
+    height: 120px;
+    width: 80%;
+    max-width: 700px;
+    background: white;
+    position: relative;
+    box-shadow: 0 4px 5px 0 rgba(0,0,50,0.5);
+}
+.tittle-style::after{
+    content: '';
+    height: 90px;
+    width: 200px;
+    background-color:rgb(27, 189, 94);
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    z-index: -1;
+}
+
+.tittle-style::before{
+    content: '';
+    height: 90px;
+    width: 200px;
+    background-color:rgb(27, 189, 94);
+    position: absolute;
+    bottom: -10px;
+    right:  -10px;
+    z-index: -1;
+}
+.trending-img{
+    position: relative;
+    margin-bottom: 15px;
+}
+.trending-img img{
+    width: 100%;
+}
+.btn-buy{
+    width: 150px;
+    padding: 10px 0;
+    outline: none !important;
+    border: 0;
+    border-radius: 2px;
+    position: absolute;
+    background: white;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50% , 0);
+    transition: .6s;
+    opacity: 0;
+    z-index: 1;
+}
+.trending-img:hover .btn-buy{
+    transform: translate(-50%,50%);
+    bottom: 50%;
+    opacity: 1;
+
+}
+.overlay{
+    height: 0;
+    width: 100%;
+    background: rgb(94, 124, 121);
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+
+.trending-img:hover .overlay{
+    opacity: 0.5;
+    height: 100%;
+}
+
+.offer{
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/back_our/20190617/ourmid/pngtree-today-s-special-offer-limited-time-to-buy-poster-background-template-image_127084.jpg);
+    background-size: cover;
+    background-position: center;    
+}
+.row{
+    margin: initial !important;
+}
+.Subscribe{
+    max-width: 500px;
+    margin-top: 80px;
+    padding: 60px;
+    background: #ffffff8c;
+    margin-bottom: 20px;
+}
+
+.Subscribe a{
+    width: 100px;
+    display: block;
+    color: white !important;
+    background: black;
+    text-decoration: none;
+    padding: 5px;
+    text-align: center;
+}
+.offer img{
+    width: 300px;
+    height: 400px;
+    margin-bottom: -100px;
+    margin-top: 150px;
+}
+
+.fashion-blog{
+    margin: 250px 0 150px 0;
+}
+.blog-img{
+    margin-top: 50px;
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+cursor: pointer;
+  
+}
+
+
+
+
+.blog-img img{
+    width: 100%;
+    height: 100%;
+}
+.fashion-blog h5{
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.fashion-brands{
+    margin-bottom: 150px;
+}
+.brand-logo{
+    width: 200px;
+    height: 200px;
+    
+    background:rgb(238, 144, 144);
+    border-radius: 100%;
+    margin: 50px auto 30px;
+}
+.brand-logo img{
+
+    width: 150px;
+    margin: 50px  auto;
+    
+    border-radius: 50%;
+}
+.fashion-brands p{
+    margin-top: 30px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.footer{
+    background: rgb(219, 198, 198) ;
+    margin-top: 150px;  
+}
+.payment{
+    margin: 50px auto;
+
+}
+.payment img{
+width: 300px;
+cursor: pointer;
+}
+.app-download img{
+    width: 200px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    float: right;
+    position: relative;
+    
+    
+}
+.footer h4{
+    margin-bottom: 11px;
+    margin-top: 70px;
+    float: right;
+    position: relative;
+    
+}
+.footer-icons{
+    text-align: right;
+
+}
+.footer-icons .fa{
+    margin: 0 10px auto;
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(27, 189, 94);
+}
+
+.col-md-8 .fa{
+    color: red;
+}
+
+@media only screen and (max-width:900px){
+    .banner-img{
+        margin: 40px auto;
+        width: 80%;
+    }
+    .tittle-style h1{
+        font-size: 25px;
+    }
+    .offer img{
+        margin-top: 20px !important;
+        margin-bottom: 0 !important;
+
+    }
+    .footer-icons{
+        text-align: center;
+    }
+    .copyright{
+        text-align: center;
+    }
+}
